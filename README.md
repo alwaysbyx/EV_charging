@@ -1,5 +1,7 @@
 # EV_charging
 
+Check ```result_analysis.ipynb``` to quick generate results.
+
 ## Fixed Charging rate allocation
 See utils.py ```generate_dataset_test``` for more details.
 If soc=n, then the initial of SoC among vehicles are Uniform(50-5*n, 50+5*n)(percents).
@@ -21,4 +23,4 @@ python offline_solver.py --solver standard --arrival_flag fix1
 python offline_solver.py --solver aware --arrival_flag fix1 
 ```
 
-Check ```result_analysis.ipynb``` to quick generate results.
+
